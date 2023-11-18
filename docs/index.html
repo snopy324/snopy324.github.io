@@ -6,8 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>benji huang</title>
     <link rel="icon" href="favicon.ico" type="image/icon" sizes="16x16">
-    
-
+    <link rel="stylesheet" href="carousel.css">
+    <!-- import jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="carousel.js"></script>
     <style>
         body {
             background-color: black;
@@ -68,8 +70,18 @@
 <body>
     <div>
         <div>
-            <img src="images/1700295163071.jpg" class="headerIcon" alt="">
+
+
+            <div class="flip">
+                <img class="front headerIcon" src="images/1700295163071.jpg">
+                <img class="back headerIcon" src="images/1700295163679.jpg">
+            </div>
+
+
+            <!-- <img id="carousel-img" src="images/1700295163071.jpg" class="headerIcon" alt=""> -->
         </div>
+
+
         <div style="height: 3em;"></div>
         <div style="height: 2em; font-weight: bold;">@sagashi.shika & @benhuang9942<div>
                 <div>
